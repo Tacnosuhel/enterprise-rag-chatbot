@@ -1,0 +1,24 @@
+# Environment & Secrets (NEVER push .env)
+.env
+*.env
+!.env.example
+
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Frontend & Node
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Vector Database & Local Logs (Optional: keep chroma_db ignored if auto-generated)
+*.log
+.DS_Store
+Thumbs.db

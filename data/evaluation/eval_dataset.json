@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is FinSolve's RTO and RPO targets for disaster recovery?",
+    "ground_truth": "FinSolve targets a Recovery Time Objective (RTO) of 4 hours and a Recovery Point Objective (RPO) of 15 minutes.",
+    "department": "engineering"
+  },
+  {
+    "question": "Which employees in the Technology department have a performance rating of 5?",
+    "ground_truth": "Sai Desai (DevOps Engineer) and Isha Desai (Software Engineer) both have a performance rating of 5 in the Technology department.",
+    "department": "hr"
+  },
+  {
+    "question": "What is FinSolve's remote work policy?",
+    "ground_truth": "FinSolve provides remote and hybrid work options as outlined in the general employee handbook.",
+    "department": "general"
+  },
+  {
+    "question": "What was the total revenue reported by FinSolve in Q4 2024?",
+    "ground_truth": "FinSolve reported total revenue and financial metrics in the Q4 2024 financial summary.",
+    "department": "finance"
+  }
+]
