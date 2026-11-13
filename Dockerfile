@@ -17,6 +17,7 @@ RUN uv pip install --system --no-cache-dir \
     -r requirements.txt
 
 COPY . .
+RUN python ingest.py
 
 EXPOSE 8000
 
