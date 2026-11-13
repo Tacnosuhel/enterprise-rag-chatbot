@@ -32,7 +32,7 @@ USERS_DB: Dict[str, dict] = {
         "name": "Alice Johnson",
         "hashed_password": hash_password("tech123"),
         "role": "engineer",
-        "allowed_departments": ["technology"]
+        "allowed_departments": ["engineering"]
     },
     "bob": {
         "username": "bob",

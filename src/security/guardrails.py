@@ -44,7 +44,7 @@ class SecurityGuardrails:
 
         # 5. Domain Department Keywords (Must match exact RBAC names)
         self.dept_keywords = {
-            "technology": [
+            "engineering": [
                 "microservice", "rate limit", "api", "architecture", "database",
                 "deploy", "docker", "server", "latency", "redis", "endpoint",
                 "disaster recovery", "rto", "rpo", "backup", "engineering", "tech"
