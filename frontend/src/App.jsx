@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Shield, Send, LogOut, User, Lock, AlertCircle } from 'lucide-react';
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
